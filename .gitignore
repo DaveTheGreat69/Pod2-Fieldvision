@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# AI/Machine Learning Specific Exclusions
+# ==========================================
+
+# Big datasets (Raw data, CSVs, Images, ZIPs)
+data/
+*.csv
+*.json
+*.zip
+*.tar.gz
+
+# Saved Model Weights / Checkpoints
+*.pth
+*.pt
+*.onnx
+*.h5
+*.ckpt
+*.pkl
+models/
+checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
